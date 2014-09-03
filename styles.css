@@ -1,0 +1,34 @@
+.german-cognate { text-decoration: underline; }
+.german-cognate-selected { color: red; }
+
+.selected
+{
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+.findcognates tr > td
+{
+	padding-bottom: 1em;
+	padding-right: 1em;
+}
+
+.findcognates table td, .findcognates table td * { vertical-align: top; }
+
+body
+{
+	font-family: Ariel, sans-serif;
+	font-size: .9em;
+	padding-top: 3em;
+	padding-left: 2em;
+	padding-right: 1em;
+}
+
+#copyright {
+    padding-top: 3em;
+    max-width: 300px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
